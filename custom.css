@@ -39,19 +39,19 @@
 
 @font-face {
   font-family: 'SFUIDisplay-Light';
-  src: url('http://34.83.50.176/v2/fonts/sf-ui-display-cufonfonts/sf-ui-display-light.otf') format("opentype");
+  src: url('https://mdpama.github.io/globecastrlogin/fonts/sf-ui-display-cufonfonts/sf-ui-display-light.otf') format("opentype");
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SFUIDisplay-Medium';
-  src: url('http://34.83.50.176/v2/fonts/sf-ui-display-cufonfonts/sf-ui-display-medium.otf') format("opentype");
+  src: url('https://mdpama.github.io/globecastrlogin/fonts/sf-ui-display-cufonfonts/sf-ui-display-medium.otf') format("opentype");
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SFUIDisplay-Semibold';
-  src: url('http://34.83.50.176/v2/fonts/sf-ui-display-cufonfonts/sf-ui-display-semibold.otf') format("opentype");
+  src: url('https://mdpama.github.io/globecastrlogin/fonts/sf-ui-display-cufonfonts/sf-ui-display-semibold.otf') format("opentype");
   font-style: normal;
 }
 
