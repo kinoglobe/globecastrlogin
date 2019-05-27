@@ -101,6 +101,9 @@ button:focus {
 input[type=text],
 input[type=text]:focus,
 input[type=text]:active,
+input[type=email],
+input[type=email]:focus,
+input[type=email]:active,
 input[type=password],
 input[type=password]:focus,
 input[type=password]:active
@@ -188,6 +191,7 @@ h1.screen-heading {
   letter-spacing: 2px
 }
 
+.traditional-signin form label,
 .traditional-signin p:nth-child(2),
 .traditional-signin p:nth-child(4),
 #resetPasswordRequest .auth-screen p:nth-child(3) {
@@ -207,7 +211,8 @@ h1.screen-heading {
   color:#244958;
 }
 
-.traditional-signin p {
+.traditional-signin p,
+.traditional-signin form label {
     font-family: 'fs_elliot_pro-light', Helvetica, Arial, sans-serif;
     color:#7F949D;
     font-size: 14px
