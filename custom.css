@@ -171,15 +171,30 @@ h1.screen-heading {
 }
 
 .social-signin {
-  margin-bottom: 25px
+  margin-bottom: 25px;
+  margin-top:25px;
 }
 
+.screen-description, 
 .social-signin p,
 #resetPasswordRequest p {
   font-family: 'fs_elliot_pro-light', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #244958;
+}
+
+.social-login-buttons .content-wrapper {
+  display:inline!important
+}
+
+.social-login-buttons .provider-name {
+    font-size: 14px;
+    font-family: 'fs_elliot_pro-regular', Helvetica, Arial, sans-serif;
+}
+
+.social-login-buttons button.facebook {
+  background-color: #009CDE!important
 }
 
 .social-login-buttons button,
@@ -205,11 +220,26 @@ h1.screen-heading {
     display:none;
 }
 
+/* remove social icons */
+.social-login-buttons .social-provider-icon {
+    display:none;
+}
+
 .traditional-signin h2 {
   font-family: 'fs_elliot_pro-light', Helvetica, Arial, sans-serif;
   font-size: 20px;
   color:#244958;
 }
+
+.alternate-credentials {
+  font-family: 'fs_elliot_pro-light', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color:#244958;
+  font-weight: bold;
+  margin-bottom:15px;
+  display:block 
+}
+
 
 .traditional-signin p,
 .traditional-signin form label {
@@ -303,7 +333,6 @@ a.forgot-password-link:focus {
 #socialRegistration .auth-screen > p:nth-child(10){
   padding-left:10px;
 }
-
 
 
 /* term and privacy */
